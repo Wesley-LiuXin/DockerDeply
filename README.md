@@ -1,8 +1,20 @@
 # DockerDeply
-
-## Setup
-docker build -t mypython -f Dockerfile .
+A service to learn docker 
 
 
-## Run
-docker run -t -i mypython
+## Build and Test
+
+### Build/rebuild docker image
+
+To build/rebuild the docker image, just run
+
+    docker build -t hello_python_server . --rm
+
+### Run tests
+
+
+## Running
+
+Just run
+
+    docker run -d=true hello_python_server /bin/bash -c "python helloPython.py"
