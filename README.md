@@ -17,4 +17,4 @@ To build/rebuild the docker image, just run
 
 Just run
 
-    docker run -d=true hello_python_server /bin/bash -c "python helloPython.py"
+    docker run -d=true hello_python_server /bin/bash -c "python helloPython.py
