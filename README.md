@@ -8,7 +8,7 @@ A service to learn docker
 
 To build/rebuild the docker image, just run
 
-    docker build -t cleanup_images_server . --rm
+    docker build -t hello_python_server . --rm
 
 ### Run tests
 
@@ -17,4 +17,4 @@ To build/rebuild the docker image, just run
 
 Just run
 
-    docker run -d=true cleanup_images_server /bin/bash -c "python helloPython.py"
+    docker run -d=true hello_python_server /bin/bash -c "python helloPython.py
